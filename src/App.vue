@@ -19,10 +19,6 @@ export default {
     // this.axios.get('/mock/user/login.json').then((res)=>{
     //   this.res = res;
     // })
-    // 通过easy-mock平台实现接口mock   这个必须要修改baseURL的地址
-    // this.axios.get('/user/login').then((res) =>{
-    //   this.res = res;
-    // })
     // 本地集成mockjs实现数据mock
     this.axios.get('/user/login').then((res) => {
       this.res = res;

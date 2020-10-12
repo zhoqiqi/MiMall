@@ -7,7 +7,7 @@ import Qs from 'qs'
 // import env from './../env'
 import { Message } from 'element-ui'
 
-const mock = true;
+const mock = false;
 if(mock){
   // import 是预编译加载，  require是只有执行的时候才会加载
   require('./../mock/api');
